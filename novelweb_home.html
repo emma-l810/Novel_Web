@@ -15,8 +15,35 @@
       }
 
       .center{
-        margin-left:auto;
+        margin-left: auto;
         margin-right: auto;
+      }
+
+      .dropdown{
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content{
+        position: absolute;
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1; */
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .smooth-scroll {
+        scroll-behavior: smooth;
+      }
+
+      html {
+        scroll-behavior: smooth;
       }
 
       table, th, td {
@@ -28,27 +55,60 @@
         text-align: left;
       }
 
+      ul {
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #ccffff;
+      }
+
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #009999;
+        color: #ffffff;
+      }
+
     </style>
 
   </head>
   <body style="background-color:#e6e6fa;">
-    <h1 style="font-family:courier;text-align:center;">My Legacy</h1>
+    <a id="home"><h1 style="font-family:courier;text-align:center;">My Legacy</h1></a>
     <h2 style="font-family:courier;text-align:center;border:2px solid #f0f8ff;">
       Starting here, I begin my conquest over mortality.
     </h2>
     <hr />
 
-    <div class="headings">
+    <!-- <div class="headings">
       <h3>Scroll Bar</h3>
+    </div> -->
+
+    <div class="dropdown">
+      <span>
+        <img src="https://www.dosgamers.com/images/mobile-menu.png" alt="Scroll bar" style="width:20px;height:20px" />
+    </span>
+
+      <div class="dropdown-content">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#a_necessary_intro">A Necessary Introduction</a></li>
+          <li><a href="#on_the_subject_of_immortality">On the Subject of Immortality</a></li>
+          <li><a href="#why_i'm_obsessed_w_a_legacy">Why I Am Obessed With A Legacy</a></li>
+          <li><a href="#my_backstory">The Backstory Story</a></li>
+          <li><a href="#importance_of_choice">The Importance of Choice and Decisions</a></li>
+          <li><a href="#grand_conclusion">A Final Hurrah</a></li>
+        </ul>
+      </div>
+
     </div>
-    <ul>
-      <li><a href="#a_necessary_intro">A Necessary Introduction</a></li>
-      <li><a href="#on_the_subject_of_immortality">On the Subject of Immortality</a></li>
-      <li><a href="#why_i'm_obsessed_w_a_legacy">Why I Am Obessed With A Legacy</a></li>
-      <li><a href="#my_backstory">The Backstory Story</a></li>
-      <li><a href="#importance_of_choice">The Importance of Choice and Decisions</a></li>
-      <li><a href="#grand_conclusion">A Final Hurrah</a></li>
-    </ul>
+
     <hr />
 
     <div class="headings">
@@ -58,12 +118,12 @@
     <p>First, salutations and greetings to you. Welcome to the page. Please, read on.</p>
 
     <p>Top 3 Things People Are Afraid Of According to <a href="https://www.psychologytoday.com/us
-      /blog/fixing-families/201908/what-are-you-most-afraid" target="_blank">Psychology Today</a>:</p>
-    <ul>
+      /blog/fixing-families/201908/what-are-you-most-afraid">Psychology Today</a>:</p>
+    <ol>
       <li>Abandonment</li>
       <li>Rejection</li>
       <li>Failure</li>
-    </ul>
+    </ol>
 
     <p>If you really think about it, abandonment, rejection, and failure can all be tied
     to death in some way or the other--all fears can be.</p>
@@ -88,7 +148,7 @@
       Stone (and that alchemy is not actually a science). Don't believe me? Check the link:
       <i>
         <a href="https://www.downtoearth.org.in/news/science-technology/immortality-is-mathematically
-      -impossible-new-research-finds-58983" target="_blank"> it's hard-core science.</a>
+      -impossible-new-research-finds-58983"> it's hard-core science.</a>
       </i>
     </p>
 
@@ -325,6 +385,9 @@
       Whatever happens to this page I won't know, but I do hope you'll remember something. In doing so, my legacy is
       carried forward through you. Even if you don't share, I won't disappear. So thank you and farewell.
     </p>
+    <hr />
+
+    <sub style="text-align:center">Some special type that always shows up at the bottom of the page c. 2020</sub>
 
   </body>
 </html>
