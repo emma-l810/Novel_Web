@@ -1,0 +1,67 @@
+.headings{
+  font-family: courier
+}
+
+.buttons{
+  font-family: Times New Roman
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  position: absolute;
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1; */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ccffff;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #009999;
+  color: #ffffff;
+}
