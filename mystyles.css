@@ -1,9 +1,16 @@
 #title {
   background-color: #7FFFD4;
+  font-family:courier;
+  text-align:center;
 }
 
 #catchphrase {
+  background-color: #ccccff;
   border: 2px solid #f0f8ff;
+  border-style: dotted;
+  padding: 5px;
+  font-family:courier;
+  text-align:center;
 }
 
 .headings{
