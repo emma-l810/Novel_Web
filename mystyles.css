@@ -13,6 +13,9 @@
   text-align:center;
 }
 
+/* find a way to add a space between the sides of the page and the text
+--> another class? padding? */
+
 .headings{
   font-family: courier;
 }
