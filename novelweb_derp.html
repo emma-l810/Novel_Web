@@ -2,23 +2,58 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Meme page - Your Future Emperor</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h2 style="font-family:courier;text-align:center;border:2px solid #f0f8ff;">
-    More About My Friend, the So-called Future Emperor of Planet Earth</h2>
-    <hr>
-    <center>
-      <img src="aaron_bird.jpg" alt="Emperor's Portrait" style="width:500px;height:600px" />
-    </center>
+    <div class="container">
+      <div class="alert alert-warning alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Quick heads up.</strong> The link is a bit of a meme page with nothing on it except a
+        hilarious photo so you can click past this if you like. The password is aaronbird.
+        <div class="spinner-border spinner-border-sm text-warning"></div>
 
-    <blockquote style="text-align:center" cite="http://nowherefromnowhere.com">
-      <em>"Countries are mere vessels of granfaloonism. Petty little threads that meaninglessly
-      pretend to tie humans together when in fact they drive humans further apart. A single
-      world must be created under my rule where all are truly equal: an empire of infinite
-      wealth and power. That is the way."</em> - Your Future Emperor
-    </blockquote>
+        <form action="/action_page.php">
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
 
-    <p style="text-align:center"><small>This is a bit of a joke page.</small></p>
+      <h2 style="font-family:courier;text-align:center;border:2px solid #f0f8ff;">
+      More About My Friend, the So-called Future Emperor of Planet Earth</h2>
+      <hr>
+      <center>
+        <img src="aaron_bird.jpg" alt="Emperor's Portrait" style="width:500px;height:600px" />
+      </center>
+
+      <blockquote style="text-align:center" cite="http://nowherefromnowhere.com">
+        <em>"Countries are mere vessels of granfaloonism. Petty little threads that meaninglessly
+        pretend to tie humans together when in fact they drive humans further apart. A single
+        world must be created under my rule where all are truly equal: an empire of infinite
+        wealth and power. That is the way."</em> - Your Future Emperor
+      </blockquote>
+
+      <p style="text-align:center"><small>This is a bit of a joke page.</small></p>
+    </div>
+
   </body>
 </html>
