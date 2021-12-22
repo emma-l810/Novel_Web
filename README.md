@@ -10,3 +10,6 @@ CSS finished at commit #9e1bee1.
 Bootstrap I finished at commit #a98dd87.
 -
 The five special features I did were the alert (on both novelweb_home and novelweb_derp), modified Bootstrap table, spinner, form (on novelweb_derp, but it doesn't work), and input (on novelweb_home, and it also doesn't work).
+
+-
+Update: merged with other HTML project. Original scripts are novelweb_home.html and novelweb_derp.html.
